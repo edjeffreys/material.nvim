@@ -172,7 +172,7 @@ else vim.g.material_style = "oceanic"
     colors.editor.bg_alt       = "#1C2C30"
     colors.editor.fg           = "#B0BEC5" -- keep the old one
     -- colors.editor.fg           = "#ADD8DE" -- keep the old one
-    colors.editor.fg_dark       = "#7C9EAD"
+    colors.editor.fg_dark      = "#7C9EAD"
     colors.editor.selection    = "#395B65"
     colors.editor.border       = "#355058"
     colors.editor.line_numbers = "#426367"
@@ -196,9 +196,9 @@ colors.syntax.string   = colors.main.green
 colors.syntax.type     = colors.main.purple
 
 ---git colors
-colors.git.added    = colors.main.green
-colors.git.removed  = colors.main.red
-colors.git.modified = colors.main.blue
+colors.git.added    = "#D0EDA4"
+colors.git.removed  = "#F78F91"
+colors.git.modified = "#3B3B3B"
 
 ---lsp colors
 colors.lsp.warning = colors.main.yellow
