@@ -54,7 +54,7 @@ if vim.g.material_style == "darker" then
     else
         -- default Darker theme style
         colors.editor.line_numbers = "#424242"
-        colors.syntax.comments     = "#515151"
+        colors.syntax.comments     = "#616161"
     end
 
     colors.editor.bg        = "#212121"
@@ -186,8 +186,8 @@ else vim.g.material_style = "oceanic"
 end
 
 ---syntax colors
-colors.syntax.variable = colors.editor.fg
-colors.syntax.field    = colors.editor.fg
+colors.syntax.variable = colors.main.white
+colors.syntax.field    = colors.main.white
 colors.syntax.keyword  = colors.main.purple
 colors.syntax.value    = colors.main.orange
 colors.syntax.operator = colors.main.cyan

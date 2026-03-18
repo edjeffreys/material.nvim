@@ -329,7 +329,7 @@ M.async_highlights.load_lsp = function()
 		["@lsp.type.annotation"] = { fg = m.purple },
 		["@lsp.type.class"] = { fg = m.yellow },
 		["@lsp.type.enum"] = { link = "@lsp.type.class" },
-		["@lsp.type.enumMember"] = { link = "@lsp.type.property" },
+		["@lsp.type.enumMember"] = { fg = m.white },
 		["@lsp.type.interface"] = { fg = m.green, italic = true },
 		["@lsp.type.method"] = { fg = m.blue },
 		["@lsp.type.modifier"] = { fg = m.purple },
